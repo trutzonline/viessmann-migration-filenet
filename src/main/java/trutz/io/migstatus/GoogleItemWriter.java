@@ -1,4 +1,4 @@
-package trutz.io.viessmann.migration.filenet;
+package trutz.io.migstatus;
 
 import org.springframework.batch.item.Chunk;
 import org.springframework.batch.item.ItemWriter;
@@ -11,7 +11,7 @@ public class GoogleItemWriter implements ItemWriter<FileNetDocument> {
 	@Override
 	public void write(@NonNull Chunk<? extends FileNetDocument> chunk) throws Exception {
 		for (FileNetDocument item : chunk.getItems()) {
-			System.out.print(item);
+			System.out.println(item);
 		}
 
 	}

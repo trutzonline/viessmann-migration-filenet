@@ -1,4 +1,4 @@
-package trutz.io.viessmann.migration.filenet;
+package trutz.io.migstatus;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

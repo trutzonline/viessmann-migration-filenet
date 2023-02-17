@@ -1,4 +1,4 @@
-package trutz.io.viessmann.migration.filenet;
+package trutz.io.migstatus;
 
 import java.sql.Timestamp;
 
@@ -8,6 +8,9 @@ import jakarta.persistence.Table;
 
 @Entity
 @Table(name = "migstatus")
+/**
+ * Zustand der Migration wird gespeichert.
+ */
 public class MigStatus {
 
     @Id
